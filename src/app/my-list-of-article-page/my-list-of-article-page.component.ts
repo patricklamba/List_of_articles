@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { fakeMyListings } from '../fake-listings';
-import { Listing } from '../types'
+import { Listing } from '../types';
 
 @Component({
   selector: 'app-my-list-of-article-page',
@@ -16,7 +16,7 @@ export class MyListOfArticlePageComponent implements OnInit {
   }
 
   onDeleteClicked(listingId){
-    alert('Deleting your listing with id ${listingId}')
+    alert(`Deleting your listing with id ${listingId}`)
   }
 
 }

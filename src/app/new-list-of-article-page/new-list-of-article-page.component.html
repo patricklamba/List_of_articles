@@ -1,1 +1,22 @@
-<p>new-list-of-article-page works!</p>
+<div class="content-box">
+  <div>
+    <label>
+      Name:
+      <input id="name" name="name" type="text" [(ngModel)]="name" />
+    </label>
+  </div>
+  <div>
+    <label>
+      Description:
+      <input id="description" name="description" type="text" [(ngModel)]="description"/>
+    </label>
+  </div>
+  <div>
+    <label>
+      Price:
+      <input id="price" name="price" type="text" [(ngModel)]="price"/>
+    </label>
+  </div>
+  <button (click)="onSubmit()">Create Listing</button>
+
+</div>
